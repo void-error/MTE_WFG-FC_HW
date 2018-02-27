@@ -8,7 +8,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 5
 Title "Waveform Generator + Frequency Counter"
-Date "2018-02-26"
+Date "2018-02-27"
 Rev "0"
 Comp ""
 Comment1 "Preliminary design"
@@ -261,13 +261,13 @@ Text Label 5600 6100 0    60   ~ 0
 BUS_SH_CP
 Text Label 5600 6200 0    60   ~ 0
 BUS_QS
-Text Label 5600 6300 0    60   ~ 0
-BUS_~CS~
-Text Label 5600 6400 0    60   ~ 0
-BUS_MOSI
-Text Label 5600 6500 0    60   ~ 0
-BUS_MISO
 Text Label 5600 6600 0    60   ~ 0
+BUS_~CS~
+Text Label 5600 6300 0    60   ~ 0
+BUS_MOSI
+Text Label 5600 6400 0    60   ~ 0
+BUS_MISO
+Text Label 5600 6500 0    60   ~ 0
 BUS_SCLK
 $Comp
 L Conn_01x12 J108
@@ -1107,13 +1107,13 @@ Wire Wire Line
 Wire Wire Line
 	6200 6200 5600 6200
 Wire Wire Line
+	6200 6600 5600 6600
+Wire Wire Line
 	6200 6300 5600 6300
 Wire Wire Line
 	6200 6400 5600 6400
 Wire Wire Line
 	6200 6500 5600 6500
-Wire Wire Line
-	6200 6600 5600 6600
 Wire Wire Line
 	4900 5300 4800 5300
 Wire Wire Line

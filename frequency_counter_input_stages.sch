@@ -8,7 +8,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 5
 Title "Frequency Counter Input Stages"
-Date "2018-02-26"
+Date "2018-02-27"
 Rev "0"
 Comp ""
 Comment1 "Preliminary design"
