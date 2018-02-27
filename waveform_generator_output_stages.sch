@@ -13,7 +13,7 @@ Rev "0"
 Comp ""
 Comment1 "Preliminary design"
 Comment2 ""
-Comment3 "Repository: https://github.com/void-error/MTE_UI_HW"
+Comment3 "Repository: https://github.com/void-error/MTE_WFG-FC_HW"
 Comment4 "License: TAPR Open Hardware License - https://www.tapr.org/ohl"
 $EndDescr
 $Comp
@@ -735,12 +735,12 @@ $Comp
 L C_Small C408
 U 1 1 59C414A6
 P 3000 3700
-F 0 "C408" H 3010 3770 50  0000 L CNN
-F 1 "100n" H 3010 3620 50  0000 L CNN
+F 0 "C408" V 2900 3600 50  0000 L CNN
+F 1 "100n" V 3100 3600 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3000 3700 50  0001 C CNN
 F 3 "" H 3000 3700 50  0001 C CNN
 	1    3000 3700
-	0    -1   1    0   
+	0    1    1    0   
 $EndComp
 $Comp
 L AGND #PWR425

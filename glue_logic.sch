@@ -13,7 +13,7 @@ Rev "0"
 Comp ""
 Comment1 "Preliminary design"
 Comment2 ""
-Comment3 "Repository: https://github.com/void-error/MTE_UI_HW"
+Comment3 "Repository: https://github.com/void-error/MTE_WFG-FC_HW"
 Comment4 "License: TAPR Open Hardware License - https://www.tapr.org/ohl"
 $EndDescr
 $Comp
