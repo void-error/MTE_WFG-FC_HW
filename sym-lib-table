@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name MTE)(type Legacy)(uri ${KIPRJMOD}/lib_sch/MTE.lib)(options "")(descr ""))
+)

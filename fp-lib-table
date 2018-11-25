@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name MTE)(type KiCad)(uri ${KIPRJMOD}/lib_pcb/MTE.pretty)(options "")(descr ""))
+)
