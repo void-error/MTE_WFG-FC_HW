@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74LVC1G57
+D Low-power configurable multiple function gate
+K multifunction
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G57.pdf
+$ENDCMP
+#
+$CMP SN65LVDS1
+D High-Speed Differential Line Driver
+K lvds
+F http://www.ti.com/lit/ds/symlink/sn65lvds1.pdf
+$ENDCMP
+#
+#End Doc Library
