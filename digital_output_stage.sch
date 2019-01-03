@@ -1,18 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:waveform_generator_frequency_counter
-LIBS:Connector
-LIBS:audio
-LIBS:battery_management
-LIBS:device
-LIBS:diode
-LIBS:graphic
-LIBS:interface
-LIBS:mechanical
-LIBS:power
-LIBS:Power_Management
-LIBS:pspice
-LIBS:triac_thyristor
-LIBS:video
 LIBS:MTE_WFG-FC-cache
 EELAYER 26 0
 EELAYER END
@@ -42,7 +28,7 @@ F 3 "" H 6825 3350 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5DE2F21F
 P 6900 3950
 AR Path="/59C3F207/5DE2F21F" Ref="#PWR?"  Part="1" 
@@ -55,7 +41,7 @@ F 3 "" H 6900 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5DE2F225
 P 7400 3950
 AR Path="/59C3F207/5DE2F225" Ref="#PWR?"  Part="1" 
@@ -237,7 +223,7 @@ F 3 "" H 6550 2950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5DE2F286
 P 6300 3050
 AR Path="/59C3F207/5DE2F286" Ref="#PWR?"  Part="1" 
@@ -250,7 +236,7 @@ F 3 "" H 6300 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5DE2F28C
 P 7800 3050
 AR Path="/59C3F207/5DE2F28C" Ref="#PWR?"  Part="1" 
@@ -358,7 +344,7 @@ F 3 "" H 4100 5650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5DE2F2CA
 P 4100 5900
 AR Path="/59C3F207/5DE2F2CA" Ref="#PWR?"  Part="1" 
@@ -371,7 +357,7 @@ F 3 "" H 4100 5900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5DE2F2D0
 P 2900 4500
 AR Path="/59C3F207/5DE2F2D0" Ref="#PWR?"  Part="1" 
@@ -425,19 +411,6 @@ F 3 "" H 3000 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 5DE2F2F2
-P 3000 2950
-AR Path="/59C3F207/5DE2F2F2" Ref="#PWR?"  Part="1" 
-AR Path="/5DCD0EF0/5DE2F2F2" Ref="#PWR0604"  Part="1" 
-F 0 "#PWR0604" H 3000 2700 50  0001 C CNN
-F 1 "DGND" H 3000 2800 50  0000 C CNN
-F 2 "" H 3000 2950 50  0001 C CNN
-F 3 "" H 3000 2950 50  0001 C CNN
-	1    3000 2950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C?
 U 1 1 5DE2F2F8
 P 2800 2700
@@ -449,19 +422,6 @@ F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2838 2550 50  
 F 3 "" H 2800 2700 50  0001 C CNN
 	1    2800 2700
 	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5DE2F2FF
-P 2800 2950
-AR Path="/59C3F207/5DE2F2FF" Ref="#PWR?"  Part="1" 
-AR Path="/5DCD0EF0/5DE2F2FF" Ref="#PWR0603"  Part="1" 
-F 0 "#PWR0603" H 2800 2700 50  0001 C CNN
-F 1 "DGND" H 2800 2800 50  0000 C CNN
-F 2 "" H 2800 2950 50  0001 C CNN
-F 3 "" H 2800 2950 50  0001 C CNN
-	1    2800 2950
-	1    0    0    -1  
 $EndComp
 Text HLabel 2700 2450 0    60   Output ~ 0
 UMON_SQR
@@ -479,7 +439,7 @@ F 3 "" H 7800 2700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5DE2F30D
 P 3400 5900
 AR Path="/59C3F207/5DE2F30D" Ref="#PWR?"  Part="1" 
@@ -492,7 +452,7 @@ F 3 "" H 3400 5900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5DE2F313
 P 4300 2950
 AR Path="/59C3F207/5DE2F313" Ref="#PWR?"  Part="1" 
@@ -505,7 +465,7 @@ F 3 "" H 4300 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5DE2F319
 P 3200 3750
 AR Path="/59C3F207/5DE2F319" Ref="#PWR?"  Part="1" 
@@ -729,7 +689,7 @@ F 3 "" H 2900 5650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5DE2F3A1
 P 2900 5900
 AR Path="/59C3F207/5DE2F3A1" Ref="#PWR?"  Part="1" 
@@ -810,7 +770,7 @@ F 3 "" H 7150 4500 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L power:GNDA #PWR?
+L MTE:AGND #PWR?
 U 1 1 5DEF94C2
 P 6900 5300
 AR Path="/59C3F207/5DEF94C2" Ref="#PWR?"  Part="1" 
@@ -823,7 +783,7 @@ F 3 "" H 6900 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR?
+L MTE:AGND #PWR?
 U 1 1 5DEF94C8
 P 7400 4600
 AR Path="/59C3F207/5DEF94C8" Ref="#PWR?"  Part="1" 
@@ -883,6 +843,28 @@ F 1 "+3V3D" H 6815 3023 50  0000 C CNN
 F 2 "" H 6800 2850 50  0001 C CNN
 F 3 "" H 6800 2850 50  0001 C CNN
 	1    6800 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MTE:AGND #PWR?
+U 1 1 5C2E9B93
+P 3000 2950
+F 0 "#PWR?" H 3000 2700 50  0001 C CNN
+F 1 "AGND" H 3005 2777 50  0000 C CNN
+F 2 "" H 3000 2950 50  0001 C CNN
+F 3 "" H 3000 2950 50  0001 C CNN
+	1    3000 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L MTE:AGND #PWR?
+U 1 1 5C2E9C19
+P 2800 2950
+F 0 "#PWR?" H 2800 2700 50  0001 C CNN
+F 1 "AGND" H 2805 2777 50  0000 C CNN
+F 2 "" H 2800 2950 50  0001 C CNN
+F 3 "" H 2800 2950 50  0001 C CNN
+	1    2800 2950
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

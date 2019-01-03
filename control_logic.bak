@@ -1,18 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:waveform_generator_frequency_counter
-LIBS:Connector
-LIBS:audio
-LIBS:battery_management
-LIBS:device
-LIBS:diode
-LIBS:graphic
-LIBS:interface
-LIBS:mechanical
-LIBS:power
-LIBS:Power_Management
-LIBS:pspice
-LIBS:triac_thyristor
-LIBS:video
 LIBS:MTE_WFG-FC-cache
 EELAYER 26 0
 EELAYER END
@@ -29,7 +15,7 @@ Comment3 "Repository: https://github.com/void-error/MTE_WFG-FC_HW"
 Comment4 "License: TAPR Open Hardware License - https://www.tapr.org/ohl"
 $EndDescr
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5B5957B6
 P 7300 6300
 AR Path="/5B5957B6" Ref="#PWR?"  Part="1" 
@@ -42,7 +28,7 @@ F 3 "" H 7300 6300 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR?
+L MTE:AGND #PWR?
 U 1 1 5B5957BC
 P 6900 6300
 AR Path="/5B5957BC" Ref="#PWR?"  Part="1" 
@@ -64,11 +50,11 @@ Text HLabel 5800 4600 0    60   Output ~ 0
 DIV_SEL
 Text HLabel 5800 3700 0    60   Output ~ 0
 RCLK_SEL
-Text HLabel 5800 3100 0    60   Input ~ 0
+Text HLabel 5800 2800 0    60   Input ~ 0
 UMON_SQR
-Text HLabel 8600 4400 2    60   Input ~ 0
+Text HLabel 5800 3100 0    60   Input ~ 0
 TMON0
-Text HLabel 8600 4500 2    60   Input ~ 0
+Text HLabel 5800 3200 0    60   Input ~ 0
 TMON1
 $Comp
 L Interface_Expansion:PCF8574 U503
@@ -82,7 +68,7 @@ F 3 "" H 2400 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5B595825
 P 2400 2600
 AR Path="/5B595825" Ref="#PWR?"  Part="1" 
@@ -123,7 +109,7 @@ F 3 "" H 1350 900 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5B59584C
 P 1100 1000
 AR Path="/5B59584C" Ref="#PWR?"  Part="1" 
@@ -169,7 +155,7 @@ F 3 "" H 6600 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR?
+L MTE:AGND #PWR?
 U 1 1 5B59586F
 P 6400 2000
 AR Path="/5B59586F" Ref="#PWR?"  Part="1" 
@@ -280,7 +266,7 @@ F 3 "" H 1800 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5B5BB2C6
 P 1100 2000
 AR Path="/5B5BB2C6" Ref="#PWR?"  Part="1" 
@@ -315,7 +301,7 @@ F 3 "" H 9300 4450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5B5BD62B
 P 10000 4700
 AR Path="/5B5BD62B" Ref="#PWR?"  Part="1" 
@@ -328,7 +314,7 @@ F 3 "" H 10000 4700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5B5BD631
 P 9300 4700
 AR Path="/5B5BD631" Ref="#PWR?"  Part="1" 
@@ -352,7 +338,7 @@ F 3 "" H 9550 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5B5BD647
 P 9550 4700
 AR Path="/5B5BD647" Ref="#PWR?"  Part="1" 
@@ -387,7 +373,7 @@ F 3 "" H 10200 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5B5D6D6B
 P 9900 5500
 AR Path="/5B5D6D6B" Ref="#PWR?"  Part="1" 
@@ -428,7 +414,7 @@ F 3 "" H 4700 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5B5DCA41
 P 4500 3200
 AR Path="/5B5DCA41" Ref="#PWR?"  Part="1" 
@@ -441,7 +427,7 @@ F 3 "" H 4500 3200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5B5DCA47
 P 4700 3200
 AR Path="/5B5DCA47" Ref="#PWR?"  Part="1" 
@@ -464,14 +450,14 @@ F 1 "74LVC1G157" H 4900 5550 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 4900 5300 60  0001 C CNN
 F 3 "" H 4900 5300 60  0001 C CNN
 	1    4900 5300
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 Text HLabel 4500 5300 0    60   Output ~ 0
 SIG_D
-Text HLabel 4500 5000 0    60   Input ~ 0
+Text HLabel 4500 5600 0    60   Input ~ 0
 SQR
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5B67F195
 P 8500 5800
 AR Path="/5B67F195" Ref="#PWR?"  Part="1" 
@@ -483,7 +469,7 @@ F 3 "" H 8500 5800 50  0001 C CNN
 	1    8500 5800
 	-1   0    0    -1  
 $EndComp
-Text HLabel 5800 3000 0    60   Output ~ 0
+Text HLabel 5800 2900 0    60   Output ~ 0
 ADJ_SQR
 $Comp
 L MTE:74LVC1G157 U?
@@ -510,7 +496,7 @@ F 3 "" H 4400 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5B71A8D6
 P 4200 7500
 AR Path="/5B71A8D6" Ref="#PWR?"  Part="1" 
@@ -523,7 +509,7 @@ F 3 "" H 4200 7500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5B71A8DC
 P 4400 7500
 AR Path="/5B71A8DC" Ref="#PWR?"  Part="1" 
@@ -558,7 +544,7 @@ F 3 "" H 8300 2950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5B71F746
 P 7500 2000
 AR Path="/5B71F746" Ref="#PWR?"  Part="1" 
@@ -571,7 +557,7 @@ F 3 "" H 7500 2000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5B71F89B
 P 7900 2000
 AR Path="/5B71F89B" Ref="#PWR?"  Part="1" 
@@ -584,7 +570,7 @@ F 3 "" H 7900 2000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5B71F94B
 P 8300 2000
 AR Path="/5B71F94B" Ref="#PWR?"  Part="1" 
@@ -601,7 +587,7 @@ SWDIO
 Text Label 8800 6100 0    60   ~ 0
 SWCLK
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5B721AEA
 P 9100 6300
 AR Path="/5B721AEA" Ref="#PWR?"  Part="1" 
@@ -631,7 +617,7 @@ F 3 "" H 9400 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5B7272A7
 P 8300 3200
 AR Path="/5B7272A7" Ref="#PWR?"  Part="1" 
@@ -677,7 +663,7 @@ F 3 "" H 8900 1650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5B9CCB64
 P 8700 2000
 AR Path="/5B9CCB64" Ref="#PWR?"  Part="1" 
@@ -693,7 +679,7 @@ Text HLabel 10450 2900 2    60   Output ~ 0
 ~DAC_GAIN~
 Text HLabel 10450 3000 2    60   Output ~ 0
 ~DAC_OFFSET~
-Text HLabel 10450 2600 2    60   Output ~ 0
+Text HLabel 10450 2500 2    60   Output ~ 0
 ~DDS~
 Text HLabel 10450 3100 2    60   Output ~ 0
 ~LDAC~
@@ -872,8 +858,6 @@ Wire Wire Line
 Wire Wire Line
 	4500 3200 4500 2800
 Wire Wire Line
-	5400 5200 5150 5200
-Wire Wire Line
 	8500 4600 8500 4700
 Connection ~ 4400 7000
 Wire Wire Line
@@ -947,7 +931,7 @@ Wire Wire Line
 Wire Wire Line
 	5800 4000 6400 4000
 Wire Wire Line
-	5800 3100 6400 3100
+	5800 2800 6400 2800
 Wire Wire Line
 	8400 5100 8500 5100
 Connection ~ 8500 5100
@@ -1206,7 +1190,7 @@ Wire Wire Line
 	2300 5200 2400 5200
 Text Label 2800 3500 2    60   ~ 0
 TX_EN
-NoConn ~ 6400 3300
+NoConn ~ 6400 3600
 $Comp
 L MTE:SN65MLVD200A U511
 U 1 1 5C21D509
@@ -1256,7 +1240,7 @@ Wire Wire Line
 	1300 6650 1400 6650
 Connection ~ 1400 6650
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5C26121C
 P 2100 7400
 AR Path="/5C26121C" Ref="#PWR?"  Part="1" 
@@ -1282,7 +1266,7 @@ F 3 "" H 2350 6300 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5C283CC5
 P 2600 6400
 AR Path="/5C283CC5" Ref="#PWR?"  Part="1" 
@@ -1338,9 +1322,7 @@ Text Label 5900 4400 0    60   ~ 0
 TRIG_DIR
 Wire Wire Line
 	5900 4400 6400 4400
-Wire Wire Line
-	4900 5600 4900 5800
-Text HLabel 5800 2900 0    60   Output ~ 0
+Text HLabel 5800 3000 0    60   Output ~ 0
 ADJ_TRIG
 Wire Wire Line
 	5800 2900 6400 2900
@@ -1367,7 +1349,7 @@ F 3 "" H 3800 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5C4F76F1
 P 3800 5300
 AR Path="/5C4F76F1" Ref="#PWR?"  Part="1" 
@@ -1394,7 +1376,7 @@ Connection ~ 3800 4700
 Wire Wire Line
 	3800 4700 3800 4800
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5C5277F8
 P 3600 5300
 AR Path="/5C5277F8" Ref="#PWR?"  Part="1" 
@@ -1638,31 +1620,31 @@ Wire Wire Line
 $Comp
 L Device:R R511
 U 1 1 5DB4ECD6
-P 4650 5800
-F 0 "R511" V 4550 5800 50  0000 C CNN
-F 1 "100k" V 4650 5800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4580 5800 50  0001 C CNN
-F 3 "" H 4650 5800 50  0001 C CNN
-	1    4650 5800
+P 4650 4900
+F 0 "R511" V 4550 4900 50  0000 C CNN
+F 1 "100k" V 4650 4900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4580 4900 50  0001 C CNN
+F 3 "" H 4650 4900 50  0001 C CNN
+	1    4650 4900
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5DB4F0E8
-P 4400 5900
+P 4400 5000
 AR Path="/5DB4F0E8" Ref="#PWR?"  Part="1" 
 AR Path="/5B59457D/5DB4F0E8" Ref="#PWR0541"  Part="1" 
-F 0 "#PWR0541" H 4400 5650 50  0001 C CNN
-F 1 "DGND" H 4400 5750 50  0000 C CNN
-F 2 "" H 4400 5900 50  0001 C CNN
-F 3 "" H 4400 5900 50  0001 C CNN
-	1    4400 5900
+F 0 "#PWR0541" H 4400 4750 50  0001 C CNN
+F 1 "DGND" H 4400 4850 50  0000 C CNN
+F 2 "" H 4400 5000 50  0001 C CNN
+F 3 "" H 4400 5000 50  0001 C CNN
+	1    4400 5000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4400 5900 4400 5800
+	4400 5000 4400 4900
 Wire Wire Line
-	4400 5800 4500 5800
+	4400 4900 4500 4900
 $Comp
 L Jumper:SolderJumper_2_Open JP501
 U 1 1 5E1FBAB4
@@ -1733,10 +1715,8 @@ F 3 "" H 3800 3850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3800 3700 3800 3600
-Wire Wire Line
-	3800 3600 6400 3600
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5E9E8914
 P 3800 4100
 AR Path="/5E9E8914" Ref="#PWR?"  Part="1" 
@@ -1784,7 +1764,7 @@ F 3 "" H 3800 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5BFCF4AF
 P 3600 6400
 AR Path="/5BFCF4AF" Ref="#PWR?"  Part="1" 
@@ -1797,7 +1777,7 @@ F 3 "" H 3600 6400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5BFCF4B5
 P 3800 6400
 AR Path="/5BFCF4B5" Ref="#PWR?"  Part="1" 
@@ -1928,7 +1908,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21708K.pdf" H 4500 1400 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5DC768A8
 P 4500 1800
 AR Path="/5DC768A8" Ref="#PWR?"  Part="1" 
@@ -1943,7 +1923,7 @@ $EndComp
 Wire Wire Line
 	4500 1800 4500 1700
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5DC9A2B0
 P 4000 1600
 AR Path="/5DC9A2B0" Ref="#PWR?"  Part="1" 
@@ -1972,41 +1952,29 @@ Connection ~ 4000 1400
 Wire Wire Line
 	4500 900  4500 1000
 Wire Wire Line
-	8600 4400 7800 4400
+	5800 3100 6400 3100
 Wire Wire Line
-	8600 4500 7800 4500
+	5800 3200 6400 3200
 Wire Wire Line
 	6400 4500 5800 4500
 Wire Wire Line
-	6400 5200 5400 5200
-Wire Wire Line
-	4800 5800 4900 5800
-Wire Wire Line
-	4900 5800 5400 5800
-Wire Wire Line
-	5400 5800 5400 5400
+	5400 4900 5400 5400
 Wire Wire Line
 	5400 5400 6400 5400
-Connection ~ 4900 5800
-Wire Wire Line
-	5400 5000 5400 5200
-Wire Wire Line
-	4500 5000 5400 5000
-Connection ~ 5400 5200
 Wire Wire Line
 	6400 5300 5300 5300
 Wire Wire Line
 	5300 5300 5300 5400
 Wire Wire Line
 	5300 5400 5150 5400
-Text HLabel 5800 2800 0    60   Input ~ 0
+Text HLabel 5800 2600 0    60   Input ~ 0
 FB_NULL
 Wire Wire Line
-	5800 2800 6400 2800
-Text HLabel 5800 2700 0    60   Input ~ 0
+	5800 2500 6400 2500
+Text HLabel 5800 2500 0    60   Input ~ 0
 UMON_OUT
 Wire Wire Line
-	5800 2700 6400 2700
+	5800 2600 6400 2600
 Text Label 5100 1400 2    60   ~ 0
 SCL
 Wire Wire Line
@@ -2031,10 +1999,10 @@ Text Label 6200 4700 0    60   ~ 0
 WP
 Wire Wire Line
 	6200 4700 6400 4700
-Text HLabel 5800 3200 0    60   Input ~ 0
+Text HLabel 5800 2700 0    60   Input ~ 0
 UMON_REF
 Wire Wire Line
-	5800 3200 6400 3200
+	5800 2700 6400 2700
 Wire Wire Line
 	8400 5500 8100 5500
 Wire Wire Line
@@ -2066,7 +2034,7 @@ F 3 "" H 9550 1900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5F10FDB2
 P 9300 2000
 AR Path="/5F10FDB2" Ref="#PWR?"  Part="1" 
@@ -2088,7 +2056,7 @@ Connection ~ 9800 1900
 Wire Wire Line
 	9300 1900 9300 2000
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5F24B4B6
 P 9800 3500
 AR Path="/5F24B4B6" Ref="#PWR?"  Part="1" 
@@ -2113,7 +2081,7 @@ Wire Wire Line
 Wire Wire Line
 	9150 3100 9250 3100
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5F4D16F3
 P 9150 3200
 AR Path="/5F4D16F3" Ref="#PWR?"  Part="1" 
@@ -2145,7 +2113,7 @@ Connection ~ 8100 5500
 Wire Wire Line
 	8100 5500 7800 5500
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5F66581D
 P 7900 6300
 AR Path="/5F66581D" Ref="#PWR?"  Part="1" 
@@ -2218,14 +2186,11 @@ Wire Wire Line
 	8600 5400 7800 5400
 NoConn ~ 6400 5000
 NoConn ~ 6400 5100
-NoConn ~ 6400 2500
-NoConn ~ 6400 2600
-Connection ~ 3800 3600
-Text HLabel 10450 2800 2    60   Output ~ 0
+Text HLabel 10450 2600 2    60   Output ~ 0
 ~LVL_CL~
-Text HLabel 10450 2500 2    60   Output ~ 0
-~ADJ_FS~
 Text HLabel 10450 2700 2    60   Output ~ 0
+~ADJ_FS~
+Text HLabel 10450 2800 2    60   Output ~ 0
 ~ADJ_NULL~
 Wire Wire Line
 	10450 3100 10350 3100
@@ -2234,13 +2199,13 @@ Wire Wire Line
 Wire Wire Line
 	10450 2900 10350 2900
 Wire Wire Line
-	10350 2800 10450 2800
-Wire Wire Line
-	10450 2700 10350 2700
-Wire Wire Line
 	10350 2600 10450 2600
 Wire Wire Line
-	10450 2500 10350 2500
+	10450 2800 10350 2800
+Wire Wire Line
+	10350 2500 10450 2500
+Wire Wire Line
+	10450 2700 10350 2700
 $Comp
 L MTE:+3V3D #PWR501
 U 1 1 5BFBC716
@@ -2413,14 +2378,14 @@ P 5800 1300
 AR Path="/59C3F207/5C3E76CA" Ref="U?"  Part="1" 
 AR Path="/5B59457D/5C3E76CA" Ref="U501"  Part="1" 
 F 0 "U501" H 5800 1650 60  0000 C CNN
-F 1 "LM4132-2" H 5800 1550 60  0000 C CNN
+F 1 "LM4132-3.3" H 5800 1550 60  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 5700 1250 60  0001 C CNN
 F 3 "" H 5700 1250 60  0001 C CNN
 	1    5800 1300
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR?
+L MTE:AGND #PWR?
 U 1 1 5C3E76D8
 P 5800 1600
 AR Path="/59C3F207/5C3E76D8" Ref="#PWR?"  Part="1" 
@@ -2446,7 +2411,7 @@ F 3 "" H 5300 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR?
+L MTE:AGND #PWR?
 U 1 1 5C3E76E5
 P 5300 1800
 AR Path="/59C3F207/5C3E76E5" Ref="#PWR?"  Part="1" 
@@ -2647,7 +2612,7 @@ Wire Wire Line
 	6000 6100 6000 6200
 Connection ~ 6000 6200
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5BF9874C
 P 4900 7100
 AR Path="/5BF9874C" Ref="#PWR?"  Part="1" 
@@ -2660,7 +2625,7 @@ F 3 "" H 4900 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5BF98752
 P 5800 7500
 AR Path="/5BF98752" Ref="#PWR?"  Part="1" 
@@ -2673,7 +2638,7 @@ F 3 "" H 5800 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L MTE:DGND #PWR?
 U 1 1 5BF98758
 P 6000 7000
 AR Path="/5BF98758" Ref="#PWR?"  Part="1" 
@@ -2714,4 +2679,27 @@ F 3 "" H 6000 6100 50  0001 C CNN
 	1    6000 6100
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5150 5200 6400 5200
+Wire Wire Line
+	4800 4900 4900 4900
+Wire Wire Line
+	4900 5000 4900 4900
+Connection ~ 4900 4900
+Wire Wire Line
+	4900 4900 5400 4900
+Wire Wire Line
+	5300 5600 5300 5400
+Wire Wire Line
+	4500 5600 5300 5600
+Connection ~ 5300 5400
+Wire Wire Line
+	6400 3300 5000 3300
+Wire Wire Line
+	5000 3300 5000 3600
+Wire Wire Line
+	5000 3600 3800 3600
+Connection ~ 3800 3600
+NoConn ~ 7800 4400
+NoConn ~ 7800 4500
 $EndSCHEMATC

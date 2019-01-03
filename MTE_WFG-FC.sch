@@ -1,18 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:waveform_generator_frequency_counter
-LIBS:Connector
-LIBS:audio
-LIBS:battery_management
-LIBS:device
-LIBS:diode
-LIBS:graphic
-LIBS:interface
-LIBS:mechanical
-LIBS:power
-LIBS:Power_Management
-LIBS:pspice
-LIBS:triac_thyristor
-LIBS:video
 LIBS:MTE_WFG-FC-cache
 EELAYER 26 0
 EELAYER END
@@ -29,7 +15,7 @@ Comment3 "Repository: https://github.com/void-error/MTE_WFG-FC_HW"
 Comment4 "License: TAPR Open Hardware License - https://www.tapr.org/ohl"
 $EndDescr
 $Comp
-L power:GND #PWR0101
+L MTE:DGND #PWR0101
 U 1 1 5964BCFC
 P 1700 2100
 F 0 "#PWR0101" H 1700 1850 50  0001 C CNN
@@ -51,7 +37,7 @@ F 3 "" H 1800 3900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR0105
+L MTE:AGND #PWR0105
 U 1 1 5975705B
 P 1800 4200
 F 0 "#PWR0105" H 1800 3950 50  0001 C CNN
@@ -122,7 +108,7 @@ F16 "FB_NULL" O L 7900 3100 60
 F17 "UMON_VREF" O L 7900 3300 60 
 $EndSheet
 $Comp
-L power:GNDA #PWR0103
+L MTE:AGND #PWR0103
 U 1 1 59D09314
 P 9600 2300
 F 0 "#PWR0103" H 9600 2050 50  0001 C CNN
@@ -155,7 +141,7 @@ F 3 "" H 1800 3100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR0104
+L MTE:AGND #PWR0104
 U 1 1 59A680F3
 P 1800 3400
 F 0 "#PWR0104" H 1800 3150 50  0001 C CNN
@@ -195,7 +181,7 @@ F 3 "" H 7300 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0125
+L MTE:DGND #PWR0125
 U 1 1 5A26261F
 P 7000 6100
 F 0 "#PWR0125" H 7000 5850 50  0001 C CNN
@@ -247,7 +233,7 @@ F 3 "" H 5800 5400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0124
+L MTE:DGND #PWR0124
 U 1 1 5A271949
 P 6100 6100
 F 0 "#PWR0124" H 6100 5850 50  0001 C CNN
@@ -269,7 +255,7 @@ F 3 "" H 4200 5200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR0123
+L MTE:AGND #PWR0123
 U 1 1 5A277E3B
 P 4500 5700
 F 0 "#PWR0123" H 4500 5450 50  0001 C CNN
@@ -384,7 +370,7 @@ F 3 "" H 2900 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR0121
+L MTE:AGND #PWR0121
 U 1 1 5A69A1F4
 P 2900 5350
 F 0 "#PWR0121" H 2900 5100 50  0001 C CNN
@@ -395,7 +381,7 @@ F 3 "" H 2900 5350 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0122
+L MTE:DGND #PWR0122
 U 1 1 5A6AF433
 P 3300 5350
 F 0 "#PWR0122" H 3300 5100 50  0001 C CNN
@@ -562,7 +548,7 @@ F 3 "" H 5100 7400 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0106
+L MTE:DGND #PWR0106
 U 1 1 5AB1CC5A
 P 9600 4300
 F 0 "#PWR0106" H 9600 4050 50  0001 C CNN
@@ -573,7 +559,7 @@ F 3 "" H 9600 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0102
+L MTE:DGND #PWR0102
 U 1 1 5AC8CCF9
 P 2400 2100
 F 0 "#PWR0102" H 2400 1850 50  0001 C CNN
@@ -842,7 +828,7 @@ Wire Wire Line
 Wire Wire Line
 	4100 1900 3400 1900
 Text Label 5700 1200 0    60   ~ 0
-~FS_ADJ~
+~ADJ_FS~
 Text Label 5700 1100 0    60   ~ 0
 ~DDS~
 Wire Wire Line
