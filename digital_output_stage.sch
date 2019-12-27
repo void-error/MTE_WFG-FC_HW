@@ -14,7 +14,7 @@ Comment3 "Repository: https://github.com/void-error/MTE_WFG-FC_HW"
 Comment4 "License: TAPR Open Hardware License - https://www.tapr.org/ohl"
 $EndDescr
 $Comp
-L MTE:74LVC1T45 U?
+L mte:74LVC1T45 U?
 U 1 1 5DE2F218
 P 6900 3450
 AR Path="/59C3F207/5DE2F218" Ref="U?"  Part="1" 
@@ -27,7 +27,7 @@ F 3 "" H 6825 3350 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MTE:DGND #PWR?
+L mte:DGND #PWR?
 U 1 1 5DE2F21F
 P 6900 3950
 AR Path="/59C3F207/5DE2F21F" Ref="#PWR?"  Part="1" 
@@ -40,7 +40,7 @@ F 3 "" H 6900 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MTE:DGND #PWR?
+L mte:DGND #PWR?
 U 1 1 5DE2F225
 P 7400 3950
 AR Path="/59C3F207/5DE2F225" Ref="#PWR?"  Part="1" 
@@ -222,7 +222,7 @@ F 3 "" H 6550 2950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L MTE:DGND #PWR?
+L mte:DGND #PWR?
 U 1 1 5DE2F286
 P 6300 3050
 AR Path="/59C3F207/5DE2F286" Ref="#PWR?"  Part="1" 
@@ -235,7 +235,7 @@ F 3 "" H 6300 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MTE:DGND #PWR?
+L mte:DGND #PWR?
 U 1 1 5DE2F28C
 P 7800 3050
 AR Path="/59C3F207/5DE2F28C" Ref="#PWR?"  Part="1" 
@@ -263,7 +263,7 @@ $EndComp
 Text HLabel 8800 3150 2    60   Output ~ 0
 DIGITAL_OUT
 $Comp
-L MTE:+12V #PWR?
+L mte:+12V #PWR?
 U 1 1 5DE2F29B
 P 3200 2750
 AR Path="/59C3F207/5DE2F29B" Ref="#PWR?"  Part="1" 
@@ -341,7 +341,7 @@ F 3 "" H 4100 5650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MTE:DGND #PWR?
+L mte:DGND #PWR?
 U 1 1 5DE2F2CA
 P 4100 5900
 AR Path="/59C3F207/5DE2F2CA" Ref="#PWR?"  Part="1" 
@@ -354,7 +354,7 @@ F 3 "" H 4100 5900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MTE:DGND #PWR?
+L mte:DGND #PWR?
 U 1 1 5DE2F2D0
 P 2900 4500
 AR Path="/59C3F207/5DE2F2D0" Ref="#PWR?"  Part="1" 
@@ -367,7 +367,7 @@ F 3 "" H 2900 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MTE:TLV271 U?
+L mte:TLV271 U?
 U 1 1 5DE2F2D6
 P 3500 4900
 AR Path="/59C3F207/5DE2F2D6" Ref="U?"  Part="1" 
@@ -436,7 +436,7 @@ F 3 "" H 7800 2700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MTE:DGND #PWR?
+L mte:DGND #PWR?
 U 1 1 5DE2F30D
 P 3400 5900
 AR Path="/59C3F207/5DE2F30D" Ref="#PWR?"  Part="1" 
@@ -449,7 +449,7 @@ F 3 "" H 3400 5900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MTE:DGND #PWR?
+L mte:DGND #PWR?
 U 1 1 5DE2F313
 P 4300 2950
 AR Path="/59C3F207/5DE2F313" Ref="#PWR?"  Part="1" 
@@ -462,7 +462,7 @@ F 3 "" H 4300 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MTE:DGND #PWR?
+L mte:DGND #PWR?
 U 1 1 5DE2F319
 P 3200 3750
 AR Path="/59C3F207/5DE2F319" Ref="#PWR?"  Part="1" 
@@ -684,7 +684,7 @@ F 3 "" H 2900 5650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MTE:DGND #PWR?
+L mte:DGND #PWR?
 U 1 1 5DE2F3A1
 P 2900 5900
 AR Path="/59C3F207/5DE2F3A1" Ref="#PWR?"  Part="1" 
@@ -765,7 +765,7 @@ F 3 "" H 7150 4500 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L MTE:AGND #PWR?
+L mte:AGND #PWR?
 U 1 1 5DEF94C2
 P 6900 5300
 AR Path="/59C3F207/5DEF94C2" Ref="#PWR?"  Part="1" 
@@ -778,7 +778,7 @@ F 3 "" H 6900 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MTE:AGND #PWR?
+L mte:AGND #PWR?
 U 1 1 5DEF94C8
 P 7400 4600
 AR Path="/59C3F207/5DEF94C8" Ref="#PWR?"  Part="1" 
@@ -806,7 +806,7 @@ Wire Wire Line
 Wire Wire Line
 	6900 4500 6900 4600
 $Comp
-L MTE:+12V #PWR?
+L mte:+12V #PWR?
 U 1 1 5E0BDDCF
 P 3400 4300
 AR Path="/59C3F207/5E0BDDCF" Ref="#PWR?"  Part="1" 
@@ -819,7 +819,7 @@ F 3 "" H 3400 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MTE:+3V3A #PWR514
+L mte:+3V3A #PWR514
 U 1 1 5C38C5CD
 P 6900 4400
 F 0 "#PWR514" H 6900 4500 50  0001 C CNN
@@ -830,7 +830,7 @@ F 3 "" H 6900 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MTE:AGND #PWR0504
+L mte:AGND #PWR0504
 U 1 1 5C2E9B93
 P 3000 2950
 F 0 "#PWR0504" H 3000 2700 50  0001 C CNN
@@ -841,7 +841,7 @@ F 3 "" H 3000 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MTE:AGND #PWR0501
+L mte:AGND #PWR0501
 U 1 1 5C2E9C19
 P 2800 2950
 F 0 "#PWR0501" H 2800 2700 50  0001 C CNN
@@ -852,7 +852,7 @@ F 3 "" H 2800 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MTE:+3V3D #PWR512
+L mte:+3V3D #PWR512
 U 1 1 5E18FD54
 P 6800 2850
 F 0 "#PWR512" H 6800 2950 50  0001 C CNN

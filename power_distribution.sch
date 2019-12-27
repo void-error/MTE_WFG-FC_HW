@@ -61,7 +61,7 @@ Connection ~ 3400 2300
 Wire Wire Line
 	4300 6600 4300 6500
 $Comp
-L MTE:AGND #PWR?
+L mte:AGND #PWR?
 U 1 1 6104CD91
 P 4300 6600
 AR Path="/5B59457D/6104CD91" Ref="#PWR?"  Part="1" 
@@ -149,7 +149,7 @@ $EndComp
 Wire Wire Line
 	4200 6100 4100 6100
 $Comp
-L MTE:IRF7468 Q?
+L mte:IRF7468 Q?
 U 1 1 6104CD54
 P 3800 7300
 AR Path="/6104CD54" Ref="Q?"  Part="1" 
@@ -209,7 +209,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 5600 4400 5600
 $Comp
-L MTE:+3V3A #PWR?
+L mte:+3V3A #PWR?
 U 1 1 6104CD3A
 P 4400 5500
 AR Path="/6104CD3A" Ref="#PWR?"  Part="1" 
@@ -276,7 +276,7 @@ Connection ~ 4200 6100
 Wire Wire Line
 	2200 6600 2200 6500
 $Comp
-L MTE:AGND #PWR?
+L mte:AGND #PWR?
 U 1 1 60FFE254
 P 2200 6600
 AR Path="/5B59457D/60FFE254" Ref="#PWR?"  Part="1" 
@@ -499,7 +499,7 @@ F 3 "~" H 1900 3050 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L MTE:AGND #PWR?
+L mte:AGND #PWR?
 U 1 1 5FED9294
 P 1900 3400
 AR Path="/5B59457D/5FED9294" Ref="#PWR?"  Part="1" 
@@ -587,7 +587,7 @@ F 3 "~" H 2200 2550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L MTE:+3V3A #PWR?
+L mte:+3V3A #PWR?
 U 1 1 5FED9287
 P 2200 2300
 AR Path="/5D397BE6/5FED9287" Ref="#PWR?"  Part="1" 
@@ -603,7 +603,7 @@ $EndComp
 Wire Wire Line
 	2200 2300 2200 2400
 $Comp
-L MTE:+3V3A #PWR?
+L mte:+3V3A #PWR?
 U 1 1 60443176
 P 6900 1200
 AR Path="/5D397BE6/60443176" Ref="#PWR?"  Part="1" 
@@ -660,7 +660,7 @@ F 3 "" H 8600 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MTE:DGND #PWR?
+L mte:DGND #PWR?
 U 1 1 5FF1343F
 P 8100 2600
 AR Path="/5FF1343F" Ref="#PWR?"  Part="1" 
@@ -675,7 +675,7 @@ F 3 "" H 8100 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MTE:NCP5661DT33 U?
+L mte:NCP5661DT33 U?
 U 1 1 5FF13433
 P 8600 2100
 AR Path="/5B59457D/5FF13433" Ref="U?"  Part="1" 
@@ -700,7 +700,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 2200 7800 2100
 $Comp
-L MTE:DGND #PWR?
+L mte:DGND #PWR?
 U 1 1 5FF13426
 P 7800 2600
 AR Path="/5FF13426" Ref="#PWR?"  Part="1" 
@@ -717,7 +717,7 @@ $EndComp
 Wire Wire Line
 	7800 2600 7800 2500
 $Comp
-L MTE:DGND #PWR?
+L mte:DGND #PWR?
 U 1 1 5FF1341F
 P 8600 2600
 AR Path="/5FF1341F" Ref="#PWR?"  Part="1" 
@@ -753,7 +753,7 @@ $EndComp
 Wire Wire Line
 	9100 2200 9100 2000
 $Comp
-L MTE:DGND #PWR?
+L mte:DGND #PWR?
 U 1 1 5FF13410
 P 9100 2600
 AR Path="/5FF13410" Ref="#PWR?"  Part="1" 
@@ -820,7 +820,7 @@ $EndComp
 Wire Wire Line
 	1900 1500 2000 1500
 $Comp
-L MTE:+5V0A #PWR?
+L mte:+5V0A #PWR?
 U 1 1 5FED9261
 P 2000 1400
 AR Path="/5FED9261" Ref="#PWR?"  Part="1" 
@@ -854,7 +854,7 @@ $EndComp
 Wire Wire Line
 	2000 1500 2000 1400
 $Comp
-L MTE:IRF7241 Q?
+L mte:IRF7241 Q?
 U 1 1 5FED924F
 P 1700 1600
 AR Path="/5FED924F" Ref="Q?"  Part="1" 
@@ -913,7 +913,7 @@ Wire Wire Line
 Wire Wire Line
 	9800 2600 9800 2500
 $Comp
-L MTE:DGND #PWR?
+L mte:DGND #PWR?
 U 1 1 5FED91E2
 P 9800 2600
 AR Path="/5FED91E2" Ref="#PWR?"  Part="1" 
@@ -963,7 +963,7 @@ F 3 "~" H 9800 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MTE:IRF7241 Q?
+L mte:IRF7241 Q?
 U 1 1 5FED91CF
 P 10100 1600
 AR Path="/5FED91CF" Ref="Q?"  Part="1" 
@@ -981,7 +981,7 @@ $EndComp
 Wire Wire Line
 	9900 1500 9800 1500
 $Comp
-L MTE:+3V3P #PWR?
+L mte:+3V3P #PWR?
 U 1 1 5FED91C1
 P 10400 1400
 AR Path="/5B59457D/5FED91C1" Ref="#PWR?"  Part="1" 
@@ -1127,7 +1127,7 @@ F 3 "~" H 4500 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MTE:+3V3A #PWR?
+L mte:+3V3A #PWR?
 U 1 1 5FED9145
 P 4400 2300
 AR Path="/5D397BE6/5FED9145" Ref="#PWR?"  Part="1" 
@@ -1171,7 +1171,7 @@ Connection ~ 4300 3300
 Wire Wire Line
 	4400 2300 4400 2400
 $Comp
-L MTE:AGND #PWR?
+L mte:AGND #PWR?
 U 1 1 5FED9128
 P 4100 3400
 AR Path="/5B59457D/5FED9128" Ref="#PWR?"  Part="1" 
@@ -1192,7 +1192,7 @@ Connection ~ 4100 3300
 Wire Wire Line
 	5300 4800 5300 4900
 $Comp
-L MTE:-15V #PWR?
+L mte:-15V #PWR?
 U 1 1 5FED9114
 P 4100 7300
 AR Path="/5FED9114" Ref="#PWR?"  Part="1" 
@@ -1242,7 +1242,7 @@ $EndComp
 Text HLabel 3200 7400 0    60   Input ~ 0
 N15V
 $Comp
-L MTE:-5V0A #PWR?
+L mte:-5V0A #PWR?
 U 1 1 5FED90C0
 P 2000 7300
 AR Path="/5FED90C0" Ref="#PWR?"  Part="1" 
@@ -1292,7 +1292,7 @@ $EndComp
 Text HLabel 1100 7400 0    60   Input ~ 0
 N5V0A
 $Comp
-L MTE:IRF7468 Q?
+L mte:IRF7468 Q?
 U 1 1 5FED90AD
 P 1700 7300
 AR Path="/5FED90AD" Ref="Q?"  Part="1" 
@@ -1352,7 +1352,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 5600 2300 5600
 $Comp
-L MTE:+3V3A #PWR?
+L mte:+3V3A #PWR?
 U 1 1 5FED908A
 P 2300 5500
 AR Path="/5FED908A" Ref="#PWR?"  Part="1" 
@@ -1457,7 +1457,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 1500 3700 1500
 $Comp
-L MTE:+15V #PWR?
+L mte:+15V #PWR?
 U 1 1 5FED903F
 P 4200 1400
 AR Path="/5FED903F" Ref="#PWR?"  Part="1" 
@@ -1631,7 +1631,7 @@ F 3 "~" H 4500 4050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MTE:IRF7241 Q?
+L mte:IRF7241 Q?
 U 1 1 5FED8FF2
 P 3900 1600
 AR Path="/5FED8FF2" Ref="Q?"  Part="1" 
@@ -1777,7 +1777,7 @@ F 3 "" H 6000 5050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MTE:+15V #PWR?
+L mte:+15V #PWR?
 U 1 1 6163B418
 P 6600 4950
 AR Path="/6163B418" Ref="#PWR?"  Part="1" 
@@ -1833,7 +1833,7 @@ F 3 "" H 6600 5050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MTE:+12V #PWR?
+L mte:+12V #PWR?
 U 1 1 6163B430
 P 7500 4950
 AR Path="/6163B430" Ref="#PWR?"  Part="1" 
@@ -1875,7 +1875,7 @@ F 3 "" H 6800 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MTE:AGND #PWR?
+L mte:AGND #PWR?
 U 1 1 6163B442
 P 6800 5500
 AR Path="/6163B442" Ref="#PWR?"  Part="1" 
@@ -1889,7 +1889,7 @@ F 3 "" H 6800 5500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MTE:DGND #PWR?
+L mte:DGND #PWR?
 U 1 1 6163B448
 P 7100 5500
 AR Path="/6163B448" Ref="#PWR?"  Part="1" 
@@ -1931,7 +1931,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 5200 7100 5500
 $Comp
-L MTE:-15V #PWR?
+L mte:-15V #PWR?
 U 1 1 6163B45B
 P 6400 4950
 AR Path="/6163B45B" Ref="#PWR?"  Part="1" 
@@ -1945,7 +1945,7 @@ F 3 "" H 6400 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MTE:+5V0A #PWR?
+L mte:+5V0A #PWR?
 U 1 1 6163B461
 P 6000 4950
 AR Path="/6163B461" Ref="#PWR?"  Part="1" 
@@ -1959,7 +1959,7 @@ F 3 "" H 6000 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MTE:-5V0A #PWR?
+L mte:-5V0A #PWR?
 U 1 1 6163B467
 P 6200 4950
 AR Path="/6163B467" Ref="#PWR?"  Part="1" 
@@ -1973,7 +1973,7 @@ F 3 "" H 6200 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MTE:+5V0D #PWR?
+L mte:+5V0D #PWR?
 U 1 1 6163B46D
 P 7300 4950
 AR Path="/6163B46D" Ref="#PWR?"  Part="1" 
@@ -2006,7 +2006,7 @@ Wire Wire Line
 	10400 1600 10400 1500
 Connection ~ 10400 1500
 $Comp
-L MTE:+5V0D #PWR?
+L mte:+5V0D #PWR?
 U 1 1 5D473E5D
 P 7800 1400
 AR Path="/5D473E5D" Ref="#PWR?"  Part="1" 
@@ -2067,7 +2067,7 @@ Wire Wire Line
 Wire Wire Line
 	7400 1800 7500 1800
 $Comp
-L MTE:AGND #PWR?
+L mte:AGND #PWR?
 U 1 1 5DA80CB9
 P 7400 2600
 AR Path="/59C3F207/5DA80CB9" Ref="#PWR?"  Part="1" 
@@ -2092,7 +2092,7 @@ Wire Wire Line
 Wire Wire Line
 	9200 1400 9200 1500
 $Comp
-L MTE:+3V3D #PWR?
+L mte:+3V3D #PWR?
 U 1 1 5FF13451
 P 9200 1400
 AR Path="/5B59457D/5FF13451" Ref="#PWR?"  Part="1" 
@@ -2109,7 +2109,7 @@ Connection ~ 6500 1300
 Wire Wire Line
 	6200 1300 6300 1300
 $Comp
-L MTE:AGND #PWR?
+L mte:AGND #PWR?
 U 1 1 5FED92B1
 P 6500 1900
 AR Path="/5FED92B1" Ref="#PWR?"  Part="1" 
@@ -2176,7 +2176,7 @@ F 3 "" H 5300 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MTE:AGND #PWR?
+L mte:AGND #PWR?
 U 1 1 5FED92D2
 P 5300 1900
 AR Path="/59C3F207/5FED92D2" Ref="#PWR?"  Part="1" 
@@ -2197,7 +2197,7 @@ Wire Wire Line
 Wire Wire Line
 	5800 1600 5800 1700
 $Comp
-L MTE:AGND #PWR?
+L mte:AGND #PWR?
 U 1 1 5FED92DB
 P 5800 1700
 AR Path="/59C3F207/5FED92DB" Ref="#PWR?"  Part="1" 
@@ -2212,7 +2212,7 @@ F 3 "" H 5800 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MTE:LM4132-3.3 U?
+L mte:LM4132-3.3 U?
 U 1 1 5FED92E1
 P 5800 1400
 AR Path="/59C3F207/5FED92E1" Ref="U?"  Part="1" 
@@ -2252,7 +2252,7 @@ Wire Wire Line
 	5300 1300 5300 900 
 Connection ~ 5300 1300
 $Comp
-L MTE:STM809T U702
+L mte:STM809T U702
 U 1 1 5D4F8717
 P 7000 1800
 F 0 "U702" H 6770 1846 50  0000 R CNN
@@ -2265,7 +2265,7 @@ $EndComp
 Wire Wire Line
 	6900 1400 6900 1300
 $Comp
-L MTE:AGND #PWR?
+L mte:AGND #PWR?
 U 1 1 5D50E70A
 P 6900 2300
 AR Path="/59C3F207/5D50E70A" Ref="#PWR?"  Part="1" 
@@ -2314,7 +2314,7 @@ Connection ~ 5300 1400
 Wire Wire Line
 	5300 1400 5300 1500
 $Comp
-L MTE:AGND #PWR0713
+L mte:AGND #PWR0713
 U 1 1 5D7C5A45
 P 4500 4900
 F 0 "#PWR0713" H 4500 4650 50  0001 C CNN
@@ -2325,7 +2325,7 @@ F 3 "" H 4500 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MTE:AGND #PWR0715
+L mte:AGND #PWR0715
 U 1 1 5D7C671A
 P 5300 4900
 F 0 "#PWR0715" H 5300 4650 50  0001 C CNN
