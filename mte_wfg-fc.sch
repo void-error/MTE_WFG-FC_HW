@@ -31,7 +31,7 @@ P 1600 1800
 F 0 "J103" H 1900 2050 50  0000 C CNN
 F 1 "CONN_COAXIAL" H 1700 1950 50  0000 C CNN
 F 2 "mte:TE_1-1337541-0" H 1600 1800 50  0001 C CNN
-F 3 "" H 1600 1800 50  0001 C CNN
+F 3 " ~" H 1600 1800 50  0001 C CNN
 	1    1600 1800
 	-1   0    0    -1  
 $EndComp
@@ -66,7 +66,7 @@ P 10800 4000
 F 0 "J108" H 11050 4250 50  0000 C CNN
 F 1 "CONN_COAXIAL" H 10900 4150 50  0000 C CNN
 F 2 "mte:TE_1-1337541-0" H 10800 4000 50  0001 C CNN
-F 3 "" H 10800 4000 50  0001 C CNN
+F 3 " ~" H 10800 4000 50  0001 C CNN
 	1    10800 4000
 	1    0    0    -1  
 $EndComp
@@ -124,7 +124,7 @@ P 10800 2000
 F 0 "J107" H 11100 2250 50  0000 C CNN
 F 1 "CONN_COAXIAL" H 10900 2150 50  0000 C CNN
 F 2 "mte:TE_1-1337541-0" H 10800 2000 50  0001 C CNN
-F 3 "" H 10800 2000 50  0001 C CNN
+F 3 " ~" H 10800 2000 50  0001 C CNN
 	1    10800 2000
 	1    0    0    -1  
 $EndComp
@@ -135,7 +135,7 @@ P 1600 1000
 F 0 "J102" H 1900 1250 50  0000 C CNN
 F 1 "CONN_COAXIAL" H 1700 1150 50  0000 C CNN
 F 2 "mte:TE_1-1337541-0" H 1600 1000 50  0001 C CNN
-F 3 "" H 1600 1000 50  0001 C CNN
+F 3 " ~" H 1600 1000 50  0001 C CNN
 	1    1600 1000
 	-1   0    0    -1  
 $EndComp
@@ -197,7 +197,7 @@ P 1400 5200
 F 0 "J101" H 1400 5600 50  0000 C CNN
 F 1 "MOLEX_KK-254" H 1400 4700 50  0000 C CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-08A_1x08_P2.54mm_Vertical" H 1400 5200 50  0001 C CNN
-F 3 "" H 1400 5200 50  0001 C CNN
+F 3 "~" H 1400 5200 50  0001 C CNN
 	1    1400 5200
 	-1   0    0    -1  
 $EndComp
@@ -237,7 +237,7 @@ P 3600 6100
 F 0 "MK101" H 3600 6300 50  0000 C CNN
 F 1 "mechanical:Mounting_Hole" H 3600 6225 50  0000 C CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 3600 6100 50  0001 C CNN
-F 3 "" H 3600 6100 50  0001 C CNN
+F 3 "~" H 3600 6100 50  0001 C CNN
 	1    3600 6100
 	1    0    0    1   
 $EndComp
@@ -248,7 +248,7 @@ P 4200 6100
 F 0 "MK105" H 4200 6300 50  0000 C CNN
 F 1 "mechanical:Mounting_Hole" H 4200 6225 50  0000 C CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 4200 6100 50  0001 C CNN
-F 3 "" H 4200 6100 50  0001 C CNN
+F 3 "~" H 4200 6100 50  0001 C CNN
 	1    4200 6100
 	1    0    0    1   
 $EndComp
@@ -259,7 +259,7 @@ P 4800 6100
 F 0 "MK109" H 4800 6300 50  0000 C CNN
 F 1 "mechanical:Mounting_Hole" H 4800 6225 50  0000 C CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 4800 6100 50  0001 C CNN
-F 3 "" H 4800 6100 50  0001 C CNN
+F 3 "~" H 4800 6100 50  0001 C CNN
 	1    4800 6100
 	1    0    0    1   
 $EndComp
@@ -270,7 +270,7 @@ P 5400 6100
 F 0 "MK113" H 5400 6300 50  0000 C CNN
 F 1 "mechanical:Mounting_Hole" H 5400 6225 50  0000 C CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 5400 6100 50  0001 C CNN
-F 3 "" H 5400 6100 50  0001 C CNN
+F 3 "~" H 5400 6100 50  0001 C CNN
 	1    5400 6100
 	1    0    0    1   
 $EndComp
@@ -281,7 +281,7 @@ P 3600 6500
 F 0 "MK102" H 3600 6700 50  0000 C CNN
 F 1 "mechanical:Mounting_Hole" H 3600 6625 50  0000 C CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 3600 6500 50  0001 C CNN
-F 3 "" H 3600 6500 50  0001 C CNN
+F 3 "~" H 3600 6500 50  0001 C CNN
 	1    3600 6500
 	1    0    0    1   
 $EndComp
@@ -292,7 +292,7 @@ P 4200 6500
 F 0 "MK106" H 4200 6700 50  0000 C CNN
 F 1 "mechanical:Mounting_Hole" H 4200 6625 50  0000 C CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 4200 6500 50  0001 C CNN
-F 3 "" H 4200 6500 50  0001 C CNN
+F 3 "~" H 4200 6500 50  0001 C CNN
 	1    4200 6500
 	1    0    0    1   
 $EndComp
@@ -303,7 +303,7 @@ P 4800 6500
 F 0 "MK110" H 4800 6700 50  0000 C CNN
 F 1 "mechanical:Mounting_Hole" H 4800 6625 50  0000 C CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 4800 6500 50  0001 C CNN
-F 3 "" H 4800 6500 50  0001 C CNN
+F 3 "~" H 4800 6500 50  0001 C CNN
 	1    4800 6500
 	1    0    0    1   
 $EndComp
@@ -314,7 +314,7 @@ P 5400 6500
 F 0 "MK114" H 5400 6700 50  0000 C CNN
 F 1 "mechanical:Mounting_Hole" H 5400 6625 50  0000 C CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 5400 6500 50  0001 C CNN
-F 3 "" H 5400 6500 50  0001 C CNN
+F 3 "~" H 5400 6500 50  0001 C CNN
 	1    5400 6500
 	1    0    0    1   
 $EndComp
@@ -325,7 +325,7 @@ P 10900 6850
 F 0 "LOGO101" H 10900 7125 50  0001 C CNN
 F 1 "OSHW" H 10900 6625 50  0001 C CNN
 F 2 "Symbol:OSHW-Logo2_9.8x8mm_Copper" H 10900 6850 50  0001 C CNN
-F 3 "" H 10900 6850 50  0001 C CNN
+F 3 "~" H 10900 6850 50  0001 C CNN
 	1    10900 6850
 	1    0    0    -1  
 $EndComp
@@ -336,7 +336,7 @@ P 3600 6900
 F 0 "MK103" H 3600 7100 50  0000 C CNN
 F 1 "mechanical:Mounting_Hole" H 3600 7025 50  0000 C CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 3600 6900 50  0001 C CNN
-F 3 "" H 3600 6900 50  0001 C CNN
+F 3 "~" H 3600 6900 50  0001 C CNN
 	1    3600 6900
 	1    0    0    1   
 $EndComp
@@ -347,7 +347,7 @@ P 4200 6900
 F 0 "MK107" H 4200 7100 50  0000 C CNN
 F 1 "mechanical:Mounting_Hole" H 4200 7025 50  0000 C CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 4200 6900 50  0001 C CNN
-F 3 "" H 4200 6900 50  0001 C CNN
+F 3 "~" H 4200 6900 50  0001 C CNN
 	1    4200 6900
 	1    0    0    1   
 $EndComp
@@ -358,7 +358,7 @@ P 3600 7300
 F 0 "MK104" H 3600 7500 50  0000 C CNN
 F 1 "mechanical:Mounting_Hole" H 3600 7425 50  0000 C CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 3600 7300 50  0001 C CNN
-F 3 "" H 3600 7300 50  0001 C CNN
+F 3 "~" H 3600 7300 50  0001 C CNN
 	1    3600 7300
 	1    0    0    1   
 $EndComp
@@ -369,7 +369,7 @@ P 4200 7300
 F 0 "MK108" H 4200 7500 50  0000 C CNN
 F 1 "mechanical:Mounting_Hole" H 4200 7425 50  0000 C CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 4200 7300 50  0001 C CNN
-F 3 "" H 4200 7300 50  0001 C CNN
+F 3 "~" H 4200 7300 50  0001 C CNN
 	1    4200 7300
 	1    0    0    1   
 $EndComp
@@ -420,7 +420,7 @@ P 4800 6900
 F 0 "MK111" H 4800 7100 50  0000 C CNN
 F 1 "mechanical:Mounting_Hole" H 4800 7025 50  0000 C CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 4800 6900 50  0001 C CNN
-F 3 "" H 4800 6900 50  0001 C CNN
+F 3 "~" H 4800 6900 50  0001 C CNN
 	1    4800 6900
 	1    0    0    1   
 $EndComp
@@ -431,7 +431,7 @@ P 5400 6900
 F 0 "MK115" H 5400 7100 50  0000 C CNN
 F 1 "mechanical:Mounting_Hole" H 5400 7025 50  0000 C CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 5400 6900 50  0001 C CNN
-F 3 "" H 5400 6900 50  0001 C CNN
+F 3 "~" H 5400 6900 50  0001 C CNN
 	1    5400 6900
 	1    0    0    1   
 $EndComp
@@ -442,7 +442,7 @@ P 4800 7300
 F 0 "MK112" H 4800 7500 50  0000 C CNN
 F 1 "mechanical:Mounting_Hole" H 4800 7425 50  0000 C CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 4800 7300 50  0001 C CNN
-F 3 "" H 4800 7300 50  0001 C CNN
+F 3 "~" H 4800 7300 50  0001 C CNN
 	1    4800 7300
 	1    0    0    1   
 $EndComp
@@ -453,7 +453,7 @@ P 5400 7300
 F 0 "MK116" H 5400 7500 50  0000 C CNN
 F 1 "mechanical:Mounting_Hole" H 5400 7425 50  0000 C CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 5400 7300 50  0001 C CNN
-F 3 "" H 5400 7300 50  0001 C CNN
+F 3 "~" H 5400 7300 50  0001 C CNN
 	1    5400 7300
 	1    0    0    1   
 $EndComp
