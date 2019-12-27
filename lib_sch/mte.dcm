@@ -1,0 +1,293 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74LVC1G57
+D Low-power configurable multiple function gate
+K multifunction
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G57.pdf
+$ENDCMP
+#
+$CMP ADM811L
+D Microprocessor Supervisory Circuit 4.65V
+$ENDCMP
+#
+$CMP ADM811M
+D Microprocessor Supervisory Circuit 4.38V
+$ENDCMP
+#
+$CMP ADM811T
+D Microprocessor Supervisory Circuit 3.08V
+$ENDCMP
+#
+$CMP IRF7241
+D -6.2A Id, -40V Vds, P-Channel HEXFET Power MOSFET, SO-8
+K P-Channel MOSFET
+F http://www.irf.com/product-info/datasheets/data/irf7241.pdf
+$ENDCMP
+#
+$CMP IRF7468
+D 9.4A Id, 40V Vds, HEXFET N-Channel MOSFET, SO-8
+K HEXFET N-Channel MOSFET
+F http://www.irf.com/product-info/datasheets/data/irf7468.pdf
+$ENDCMP
+#
+$CMP LT1819
+D 400MHz, 2500V/μs, Dual Operational Amplifi ers
+K dual opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/18189fb.pdf
+$ENDCMP
+#
+$CMP MCP809-270
+D Microcontroller reset monitor, active low output
+K supervisor reset push-pull
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11194c.pdf
+$ENDCMP
+#
+$CMP MCP809-300
+D Microcontroller reset monitor, active high output
+K supervisor reset push-pull
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP MCP809-315
+D Microcontroller reset monitor, active high output
+K supervisor reset push-pull
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11194c.pdf
+$ENDCMP
+#
+$CMP MCP809-450
+D Microcontroller reset monitor, active high output
+K supervisor reset push-pull
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11194c.pdf
+$ENDCMP
+#
+$CMP MCP809-460
+D Microcontroller reset monitor, active high output
+K supervisor reset push-pull
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11194c.pdf
+$ENDCMP
+#
+$CMP MCP809-475
+D Microcontroller reset monitor, active high output
+K supervisor reset push-pull
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11194c.pdf
+$ENDCMP
+#
+$CMP MCP809-485
+D Microcontroller reset monitor, active high output
+K supervisor reset push-pull
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11194c.pdf
+$ENDCMP
+#
+$CMP NCP5661DT12
+D Low Output Voltage,Ultra-Fast 1.0 A Low DropoutLinear Regulator with Enable
+K LDO regulator
+$ENDCMP
+#
+$CMP NCP5661DT15
+D Low Output Voltage,Ultra-Fast 1.0 A Low DropoutLinear Regulator with Enable
+K LDO regulator
+$ENDCMP
+#
+$CMP NCP5661DT18
+D Low Output Voltage,Ultra-Fast 1.0 A Low DropoutLinear Regulator with Enable
+K LDO regulator
+$ENDCMP
+#
+$CMP NCP5661DT25
+D Low Output Voltage,Ultra-Fast 1.0 A Low DropoutLinear Regulator with Enable
+K LDO regulator
+$ENDCMP
+#
+$CMP NCP5661DT28
+D Low Output Voltage,Ultra-Fast 1.0 A Low DropoutLinear Regulator with Enable
+K LDO regulator
+$ENDCMP
+#
+$CMP NCP5661DT30
+D Low Output Voltage,Ultra-Fast 1.0 A Low DropoutLinear Regulator with Enable
+K LDO regulator
+$ENDCMP
+#
+$CMP NCP5661DT33
+D Low Output Voltage,Ultra-Fast 1.0 A Low DropoutLinear Regulator with Enable
+K LDO regulator
+$ENDCMP
+#
+$CMP OPA2727
+D Dual 20MHz HighPrecision CMOS Operational Amplifier, SOIC-8/MSOP-8/DFN-8
+K dual opamp
+F http://www.ti.com/lit/ds/symlink/opa727.pdf
+$ENDCMP
+#
+$CMP SN65LVDS1
+D High-Speed Differential Line Driver
+K lvds
+F http://www.ti.com/lit/ds/symlink/sn65lvds1.pdf
+$ENDCMP
+#
+$CMP STM1815R
+D Low power reset circuit 2.55V
+$ENDCMP
+#
+$CMP STM1815S
+D Low power reset circuit 2.88V
+$ENDCMP
+#
+$CMP STM1815T
+D Low power reset circuit 3.06V
+$ENDCMP
+#
+$CMP STM6718LT
+D Dual ultra-low voltage supervisor with push-button reset
+$ENDCMP
+#
+$CMP STM6718MR
+D Dual ultra-low voltage supervisor with push-button reset
+$ENDCMP
+#
+$CMP STM6718MS
+D Dual ultra-low voltage supervisor with push-button reset
+$ENDCMP
+#
+$CMP STM6718SD
+D Dual ultra-low voltage supervisor with push-button reset
+$ENDCMP
+#
+$CMP STM6718SF
+D Dual ultra-low voltage supervisor with push-button reset
+$ENDCMP
+#
+$CMP STM6718SH
+D Dual ultra-low voltage supervisor with push-button reset
+$ENDCMP
+#
+$CMP STM6718SJ
+D Dual ultra-low voltage supervisor with push-button reset
+$ENDCMP
+#
+$CMP STM6718SV
+D Dual ultra-low voltage supervisor with push-button reset
+$ENDCMP
+#
+$CMP STM6718SY
+D Dual ultra-low voltage supervisor with push-button reset
+$ENDCMP
+#
+$CMP STM6718TE
+D Dual ultra-low voltage supervisor with push-button reset
+$ENDCMP
+#
+$CMP STM6718TG
+D Dual ultra-low voltage supervisor with push-button reset
+$ENDCMP
+#
+$CMP STM6718TI
+D Dual ultra-low voltage supervisor with push-button reset
+$ENDCMP
+#
+$CMP STM6718TK
+D Dual ultra-low voltage supervisor with push-button reset
+$ENDCMP
+#
+$CMP STM6718TW
+D Dual ultra-low voltage supervisor with push-button reset
+$ENDCMP
+#
+$CMP STM6718TZ
+D Dual ultra-low voltage supervisor with push-button reset
+$ENDCMP
+#
+$CMP STM6718VD
+D Dual ultra-low voltage supervisor with push-button reset
+$ENDCMP
+#
+$CMP STM6718VF
+D Dual ultra-low voltage supervisor with push-button reset
+$ENDCMP
+#
+$CMP STM6718VH
+D Dual ultra-low voltage supervisor with push-button reset
+$ENDCMP
+#
+$CMP STM6718VJ
+D Dual ultra-low voltage supervisor with push-button reset
+$ENDCMP
+#
+$CMP STM6718YD
+D Dual ultra-low voltage supervisor with push-button reset
+$ENDCMP
+#
+$CMP STM6718YF
+D Dual ultra-low voltage supervisor with push-button reset
+$ENDCMP
+#
+$CMP STM6718YH
+D Dual ultra-low voltage supervisor with push-button reset
+$ENDCMP
+#
+$CMP STM6718YJ
+D Dual ultra-low voltage supervisor with push-button reset
+$ENDCMP
+#
+$CMP STM6718YV
+D Dual ultra-low voltage supervisor with push-button reset
+$ENDCMP
+#
+$CMP STM6780L
+D Dual ultra-low voltage supervisor with push-button reset
+$ENDCMP
+#
+$CMP STM6780S
+D Dual ultra-low voltage supervisor with push-button reset
+$ENDCMP
+#
+$CMP STM6780T
+D Dual ultra-low voltage supervisor with push-button reset
+$ENDCMP
+#
+$CMP STM6780V
+D Dual ultra-low voltage supervisor with push-button reset
+$ENDCMP
+#
+$CMP STM6780Y
+D Dual ultra-low voltage supervisor with push-button reset
+$ENDCMP
+#
+$CMP STM809L
+D Microcontroller reset monitor, active low output
+K supervisor reset push-pull
+$ENDCMP
+#
+$CMP STM809M
+D Microcontroller reset monitor, active low output
+K supervisor reset push-pull
+$ENDCMP
+#
+$CMP STM809R
+D Microcontroller reset monitor, active low output
+K supervisor reset push-pull
+$ENDCMP
+#
+$CMP STM809S
+D Microcontroller reset monitor, active low output
+K supervisor reset push-pull
+$ENDCMP
+#
+$CMP STM809T
+D Microcontroller reset monitor, active low output
+K supervisor reset push-pull
+$ENDCMP
+#
+$CMP Si8650BB-B-IS1
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 2.5kV isolation, Fail-Safe Low, SOIC-16
+K 5Ch Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si865x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8652BB-B-IS1
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 2.5kV isolation, Fail-Safe Low, SOIC-16
+K 5Ch Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si865x-datasheet.pdf
+$ENDCMP
+#
+#End Doc Library

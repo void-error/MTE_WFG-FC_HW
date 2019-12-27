@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name MTE)(type Legacy)(uri ${KIPRJMOD}/lib_sch/MTE.lib)(options "")(descr ""))
+  (lib (name MTE_WFG-FC-rescue)(type Legacy)(uri ${KIPRJMOD}/MTE_WFG-FC-rescue.lib)(options "")(descr ""))
 )
