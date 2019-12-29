@@ -337,30 +337,11 @@ F 3 "" H 2200 6300 50  0001 C CNN
 $EndComp
 Text HLabel 3000 7000 2    60   Input ~ 0
 TRIG_DIR
-$Comp
-L Device:R R?
-U 1 1 617C8E65
-P 4700 1150
-AR Path="/5B59457D/617C8E65" Ref="R?"  Part="1" 
-AR Path="/5D397BE6/617C8E65" Ref="R818"  Part="1" 
-AR Path="/6172F2B6/617C8E65" Ref="R?"  Part="1" 
-F 0 "R818" V 4700 1550 50  0000 C CNN
-F 1 "33k" V 4700 1150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4630 1150 50  0001 C CNN
-F 3 "" H 4700 1150 50  0001 C CNN
-	1    4700 1150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4500 900  4700 900 
-Wire Wire Line
-	4700 1000 4700 900 
 Wire Wire Line
 	4000 900  4300 900 
 Wire Wire Line
 	4300 900  4500 900 
 Connection ~ 4300 900 
-Connection ~ 4500 900 
 Wire Wire Line
 	4500 1000 4500 900 
 $Comp
@@ -1378,127 +1359,52 @@ TRIG_IN
 Text HLabel 3000 6800 2    60   Output ~ 0
 TRIG_OUT
 Wire Wire Line
-	4700 3200 4800 3200
-Wire Wire Line
-	4700 3300 4700 3200
-$Comp
-L mte:DGND #PWR?
-U 1 1 617C8E71
-P 4700 3300
-AR Path="/617C8E71" Ref="#PWR?"  Part="1" 
-AR Path="/5B59457D/617C8E71" Ref="#PWR?"  Part="1" 
-AR Path="/5D397BE6/617C8E71" Ref="#PWR0817"  Part="1" 
-AR Path="/6172F2B6/617C8E71" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0817" H 4700 3050 50  0001 C CNN
-F 1 "DGND" H 4700 3150 50  0000 C CNN
-F 2 "" H 4700 3300 50  0001 C CNN
-F 3 "" H 4700 3300 50  0001 C CNN
-	1    4700 3300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4800 3000 4600 3000
-Wire Wire Line
-	4700 3100 4700 2800
-Wire Wire Line
-	4800 3100 4700 3100
-$Comp
-L Connector_Generic:Conn_01x03 J?
-U 1 1 617C8E7B
-P 5000 3100
-AR Path="/5B59457D/617C8E7B" Ref="J?"  Part="1" 
-AR Path="/5D397BE6/617C8E7B" Ref="J801"  Part="1" 
-AR Path="/6172F2B6/617C8E7B" Ref="J?"  Part="1" 
-F 0 "J801" H 5000 3300 50  0000 C CNN
-F 1 "Conn_01x03" H 5000 2900 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 5000 3100 50  0001 C CNN
-F 3 "" H 5000 3100 50  0001 C CNN
-	1    5000 3100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4700 2800 5200 2800
-Wire Wire Line
-	5200 2800 5200 2700
-Wire Wire Line
-	4900 2400 4900 2500
-Connection ~ 4900 2400
-Wire Wire Line
-	4900 2000 4900 2400
-Wire Wire Line
-	4900 2400 5000 2400
+	5100 2500 5100 2600
 $Comp
 L mte:DGND #PWR?
 U 1 1 617C8F13
-P 4900 2500
+P 5100 2600
 AR Path="/617C8F13" Ref="#PWR?"  Part="1" 
 AR Path="/5B59457D/617C8F13" Ref="#PWR?"  Part="1" 
 AR Path="/5D397BE6/617C8F13" Ref="#PWR0818"  Part="1" 
 AR Path="/6172F2B6/617C8F13" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0818" H 4900 2250 50  0001 C CNN
-F 1 "DGND" H 4900 2350 50  0000 C CNN
-F 2 "" H 4900 2500 50  0001 C CNN
-F 3 "" H 4900 2500 50  0001 C CNN
-	1    4900 2500
+F 0 "#PWR0818" H 5100 2350 50  0001 C CNN
+F 1 "DGND" H 5100 2450 50  0000 C CNN
+F 2 "" H 5100 2600 50  0001 C CNN
+F 3 "" H 5100 2600 50  0001 C CNN
+	1    5100 2600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Transistor_FET:BSS138 Q?
 U 1 1 617C8F19
-P 5200 2500
+P 5000 2300
 AR Path="/617C8F19" Ref="Q?"  Part="1" 
 AR Path="/5D10FD10/617C8F19" Ref="Q?"  Part="1" 
 AR Path="/5B59457D/617C8F19" Ref="Q?"  Part="1" 
 AR Path="/5D397BE6/617C8F19" Ref="Q806"  Part="1" 
 AR Path="/6172F2B6/617C8F19" Ref="Q?"  Part="1" 
-F 0 "Q806" V 5400 2350 50  0000 C CNN
-F 1 "BSS138" V 5400 2700 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5400 2425 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 5200 2500 50  0001 L CNN
-	1    5200 2500
-	0    1    -1   0   
+F 0 "Q806" V 5200 2150 50  0000 C CNN
+F 1 "BSS138" V 5200 2500 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5200 2225 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 5000 2300 50  0001 L CNN
+	1    5000 2300
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4900 2000 5000 2000
-$Comp
-L Transistor_FET:BSS138 Q?
-U 1 1 617C8F20
-P 5200 1900
-AR Path="/617C8F20" Ref="Q?"  Part="1" 
-AR Path="/5D10FD10/617C8F20" Ref="Q?"  Part="1" 
-AR Path="/5B59457D/617C8F20" Ref="Q?"  Part="1" 
-AR Path="/5D397BE6/617C8F20" Ref="Q805"  Part="1" 
-AR Path="/6172F2B6/617C8F20" Ref="Q?"  Part="1" 
-F 0 "Q805" V 5400 1750 50  0000 C CNN
-F 1 "BSS138" V 5400 2100 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5400 1825 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 5200 1900 50  0001 L CNN
-	1    5200 1900
-	0    1    1    0   
-$EndComp
+	5100 1800 5200 1800
 Wire Wire Line
-	5400 2400 5500 2400
-Wire Wire Line
-	5400 2000 5500 2000
-Text HLabel 5500 2400 2    60   Output ~ 0
+	5100 2000 5200 2000
+Text HLabel 5200 1800 2    60   Output ~ 0
 BOOT0
-Text HLabel 5500 2000 2    60   Output ~ 0
+Text HLabel 5200 2000 2    60   Output ~ 0
 NRST
-Wire Wire Line
-	4700 1300 4700 2800
-Connection ~ 4700 2800
 Wire Wire Line
 	3000 1500 4300 1500
 Wire Wire Line
 	4300 1300 4300 1500
 Wire Wire Line
-	5200 1600 5200 1700
-Wire Wire Line
-	3000 1600 5200 1600
-Wire Wire Line
-	4300 1500 4600 1500
-Wire Wire Line
-	4600 1500 4600 3000
+	3000 1600 4700 1600
 Connection ~ 4300 1500
 $Comp
 L mte:+3V3D #PWR?
@@ -1545,4 +1451,69 @@ F 3 "" H 4500 6800 50  0001 C CNN
 	1    4500 6800
 	1    0    0    -1  
 $EndComp
+$Comp
+L Transistor_FET:BSS84 Q?
+U 1 1 5EF32B76
+P 5000 1500
+AR Path="/5B59457D/5EF32B76" Ref="Q?"  Part="1" 
+AR Path="/5EF32B76" Ref="Q?"  Part="1" 
+AR Path="/5D10FD10/5EF32B76" Ref="Q?"  Part="1" 
+AR Path="/5D397BE6/5EF32B76" Ref="Q805"  Part="1" 
+AR Path="/6172F2B6/5EF32B76" Ref="Q?"  Part="1" 
+F 0 "Q805" V 5343 1500 50  0000 C CNN
+F 1 "BSS84" V 5252 1500 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5200 1425 50  0001 L CIN
+F 3 "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf" H 5000 1500 50  0001 L CNN
+	1    5000 1500
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5100 1800 5100 1700
+Wire Wire Line
+	5100 2000 5100 2100
+Wire Wire Line
+	4700 2300 4800 2300
+Wire Wire Line
+	4700 1600 4700 2300
+$Comp
+L mte:+3V3D #PWR?
+U 1 1 5F037C8F
+P 5100 1200
+AR Path="/5B59457D/5F037C8F" Ref="#PWR?"  Part="1" 
+AR Path="/5D397BE6/5F037C8F" Ref="#PWR817"  Part="1" 
+AR Path="/6172F2B6/5F037C8F" Ref="#PWR?"  Part="1" 
+AR Path="/5F037C8F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR817" H 5100 1300 50  0001 C CNN
+F 1 "+3V3D" H 5100 1350 50  0000 C CNN
+F 2 "" H 5100 1200 50  0001 C CNN
+F 3 "" H 5100 1200 50  0001 C CNN
+	1    5100 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 1200 5100 1300
+Connection ~ 4500 900 
+Wire Wire Line
+	4500 900  4700 900 
+Wire Wire Line
+	4700 1000 4700 900 
+$Comp
+L Device:R R?
+U 1 1 617C8E65
+P 4700 1150
+AR Path="/5B59457D/617C8E65" Ref="R?"  Part="1" 
+AR Path="/5D397BE6/617C8E65" Ref="R818"  Part="1" 
+AR Path="/6172F2B6/617C8E65" Ref="R?"  Part="1" 
+F 0 "R818" V 4700 1550 50  0000 C CNN
+F 1 "33k" V 4700 1150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4630 1150 50  0001 C CNN
+F 3 "" H 4700 1150 50  0001 C CNN
+	1    4700 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 1500 4800 1500
+Wire Wire Line
+	4700 1300 4700 1600
+Connection ~ 4700 1600
 $EndSCHEMATC

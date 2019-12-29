@@ -1,4 +1,4 @@
-update=27-Dec-19 03:13:31
+update=29-Dec-19 13:57:41
 version=1
 last_client=kicad
 [general]
@@ -20,7 +20,7 @@ BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
-ProhibitOverlappingCourtyards=1
+ProhibitOverlappingCourtyards=0
 MinTrackWidth=0.2
 MinViaDiameter=0.4
 MinViaDrill=0.3
